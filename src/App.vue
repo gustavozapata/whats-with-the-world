@@ -1,7 +1,9 @@
 <template>
-  <img id="logo" alt="Vue logo" src="./assets/logo.jpg" />
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <Intro message="What's With The World" />
+  <div>
+    <img id="logo" alt="Vue logo" src="./assets/logo.jpg" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Intro message="What's With The World" />
+  </div>
 </template>
 
 <script>
