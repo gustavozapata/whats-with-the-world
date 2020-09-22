@@ -1,11 +1,19 @@
 {
   "hosting": {
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "redirects": [
+      {
+        "source": "/about",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/author",
+        "destination": "https://gustavozapata.me",
+        "type": 302
+      }
     ],
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
